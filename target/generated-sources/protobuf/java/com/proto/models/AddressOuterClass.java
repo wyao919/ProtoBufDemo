@@ -19,6 +19,11 @@ public final class AddressOuterClass {
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Address_fieldAccessorTable;
+  static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_Addresses_descriptor;
+  static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_Addresses_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +34,8 @@ public final class AddressOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\024common/address.proto\"4\n\007Address\022\013\n\003zip" +
-      "\030\001 \001(\005\022\016\n\006street\030\002 \001(\t\022\014\n\004city\030\003 \001(\tB\024\n\020" +
+      "\030\001 \001(\005\022\016\n\006street\030\002 \001(\t\022\014\n\004city\030\003 \001(\t\"&\n\t" +
+      "Addresses\022\031\n\007address\030\001 \003(\0132\010.AddressB\024\n\020" +
       "com.proto.modelsP\001b\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
@@ -50,6 +56,12 @@ public final class AddressOuterClass {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Address_descriptor,
         new java.lang.String[] { "Zip", "Street", "City", });
+    internal_static_Addresses_descriptor =
+      getDescriptor().getMessageTypes().get(1);
+    internal_static_Addresses_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_Addresses_descriptor,
+        new java.lang.String[] { "Address", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
